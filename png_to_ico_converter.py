@@ -5,7 +5,6 @@ file format support an efficient internal
 representation, and fairly powerful image
 processing capabilities.it is fork from
 Python Imaging Library(PIL)
-
 """
 import os
 
