@@ -20,13 +20,11 @@ def png_to_ico_converter(image_file) -> None:
     """
 
     try:
-        # Check the existing of the File
-        os.path.isfile(image_file):
-         # Open the image file using Image class instance of the Pillow library
-        file = Image.open(image_file)
+          # Open the image file using Image class instance of the Pillow library
+        file = Image.open(image_file)):
           # Resizing the image
         new_image = file.resize((400, 400))
-        # Saving image file in ICO format
+         # Saving image file in ICO format
         new_image.save('icon_file.ico')
         print("Successfully converted into required Format")
     except FileNotFoundError:
