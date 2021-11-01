@@ -5,6 +5,7 @@ file format support an efficient internal
 representation, and fairly powerful image
 processing capabilities.it is fork from
 Python Imaging Library(PIL)
+
 """
 import os
 
@@ -12,7 +13,6 @@ from PIL import Image
 
 
 def png_to_ico_converter(image_file) -> None:
-
     """
     fucntion for converting png format
     to ico format.It takes file from the
@@ -39,6 +39,6 @@ def png_to_ico_converter(image_file) -> None:
 
 if __name__ == "__main__":
     print("**** Welcome to the Png to Icon Converter ****")
-    image_file = input("Choose image file from the directory: ")
+    image_path = input("Choose image file from the directory: ")
 
-    png_to_ico_converter(image_file)
+    png_to_ico_converter(image_path)
